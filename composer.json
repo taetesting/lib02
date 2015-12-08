@@ -1,0 +1,22 @@
+{
+    "name": "taetesting/lib02",
+    "description": "This is lib #02",
+    "authors": [
+        {
+            "name": "Xuan Vo",
+            "email": "tae.testing@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=5.3.0"
+        },
+    "require-dev": {
+        
+        },
+    "autoload": {
+        "psr-4": {
+            "AWS\\S2\\": "src/"
+        }
+    }
+}
